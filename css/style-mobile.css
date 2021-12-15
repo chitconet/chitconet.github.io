@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+    body {
+        min-width: 360px;
+    }
+    .container {
+        width: 100%;
+    }
+    .menu-list {
+        display: none;
+    }
+    .header-intro-text {
+        width: auto;
+    }
+    .trends-item {
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .main-container {
+        display: block;
+    }
+    .main {
+        margin-bottom: 45px;
+    }
+    .main,
+    .aside {
+        width: 100%;
+    }
+    .field {
+        width: calc(100% - 84px);
+    }
+    .shop-item {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .shop-item:last-child {
+        margin-bottom: 0;
+    }
+}

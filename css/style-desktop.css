@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+    .trends-item:nth-child(n + 2) {
+        margin-left: 4px;
+    }
+    .main-article:nth-child(n + 2) {
+        margin-top: 60px;
+    }
+    .shop-item:nth-child(n + 2) {
+        margin-left: 60px;
+    }
+}
