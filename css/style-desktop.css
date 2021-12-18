@@ -1,4 +1,7 @@
 @media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
     .trends-item:nth-child(n + 2) {
         margin-left: 4px;
     }
