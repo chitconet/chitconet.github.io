@@ -205,7 +205,8 @@
 
 .aside-section>h3,
 .trends-container>h3,
-.shop-items-container>h3 {
+.shop-items-container>h3,
+.popup>h3 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -214,7 +215,8 @@
 
 .aside-section>h3:after,
 .trends-container>h3:after,
-.shop-items-container>h3:after {
+.shop-items-container>h3:after,
+.popup>h3:after {
     content: "";
     background-color: #b59f5b;
     width: 66px;
@@ -345,7 +347,8 @@
 /* TRENDS STYLES */
 
 .trends-container>h3,
-.shop-items-container>h3 {
+.shop-items-container>h3,
+.popup>h3 {
     font-size: 20px;
     margin-top: 60px;
 }

@@ -1,0 +1,105 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-overlay::before {
+    content: "";
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.popup {
+    width: 390px;
+    background: #fff;
+    padding: 54px 30px;
+}
+
+.popup h3 {
+    margin-top: 0;
+}
+
+.popup form .label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.popup form .form-field {
+    margin-bottom: 34px;
+}
+
+.popup form .form-input {
+    background-color: #f4f7f6;
+    color: #6f7170;
+    width: 100%;
+}
+
+.popup form select {
+    padding: 19px;
+    background-image: url(../svg/form-arrows.svg);
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 10px;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup form .radio-group {
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.popup form .radio-group .radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.popup form .radio-group span {
+    display: inline-block;
+}
+
+.popup form .radio-group span:before {
+    content: "";
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../svg/form-empty-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+}
+
+.popup form .radio-group .radio:checked ~ span::before {
+    background-image: url(../svg/form-circle.svg);
+}
+
+.popup form textarea {
+    padding: 21px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.popup form .button {
+    width: 100%;
+}
