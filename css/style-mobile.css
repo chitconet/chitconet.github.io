@@ -5,8 +5,25 @@
     .container {
         width: 100%;
     }
-    .menu-list {
-        display: none;
+    .header {
+        background-image: url(../images/banner-mobile.jpg);
+    }
+    .header-intro {
+        padding: 45px 0 220px;
+    }
+    .header-menu {
+        flex-direction: column-reverse;
+    }
+    .logo img {
+        height: 60px;
+        width: auto;
+    }
+    .menu-hamburger {
+        align-self: flex-end;
+        margin-bottom: 185px;
+    }
+    .header-intro h1 {
+        font-size: 26px;
     }
     .header-intro-text {
         width: auto;

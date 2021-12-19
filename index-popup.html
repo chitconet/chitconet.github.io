@@ -42,6 +42,7 @@
                         <a href="#0">Контакты</a>
                     </li>
                 </ul>
+                <div class="menu-hamburger"></div>
             </div>
             <div class="header-intro">
                 <div class="header-intro-text">
@@ -452,31 +453,36 @@
     </footer>
     <div class="popup-overlay">
         <div class="popup">
-            <h3>Ваш фидбек</h3>
-            <form action="#0">
-                <div class="form-field">
-                    <label for="popup-form-question-one" class="label">Как часто вы заходите на сайт?</label>
-                    <select name="question-one" id="popup-form-question-one" class="form-input">
-                        <option value="every-day">Почти каждый день</option>
-                    </select>
-                </div>
-                <div class="form-field">
-                    <label class="label">Вы подписаный на e-mail рассылку?</label>
-                    <label class="radio-group">
-                        <input type="radio" name="question-two" value="yes" class="radio" checked>
-                        <span>Да</span>
-                    </label>
-                    <label class="radio-group">
-                        <input type="radio" name="question-two" value="no"class="radio" >
-                        <span>Нет</span>
-                    </label>
-                </div>
-                <div class="form-field">
-                    <label for="question-three" class="label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-                    <textarea name="question-three" id="question-three" rows="4" placeholder="Может, больше рецептов?" class="form-input"></textarea>
-                </div>
-                <button type="submit" class="button">Отправить</button>
-            </form>
+            <div class="popup-close">
+                <a href="#0"><img src="svg/form-x.svg" alt="Close popup"></a>
+            </div>
+            <div class="popup-content">
+                <h3>Ваш фидбек</h3>
+                <form action="#0">
+                    <div class="form-field">
+                        <label for="popup-form-question-one" class="label">Как часто вы заходите на сайт?</label>
+                        <select name="question-one" id="popup-form-question-one" class="form-input">
+                            <option value="every-day">Почти каждый день</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label class="label">Вы подписаный на e-mail рассылку?</label>
+                        <label class="radio-group">
+                            <input type="radio" name="question-two" value="yes" class="radio" checked>
+                            <span>Да</span>
+                        </label>
+                        <label class="radio-group">
+                            <input type="radio" name="question-two" value="no"class="radio" >
+                            <span>Нет</span>
+                        </label>
+                    </div>
+                    <div class="form-field">
+                        <label for="question-three" class="label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+                        <textarea name="question-three" id="question-three" rows="4" placeholder="Может, больше рецептов?" class="form-input"></textarea>
+                    </div>
+                    <button type="submit" class="button">Отправить</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>

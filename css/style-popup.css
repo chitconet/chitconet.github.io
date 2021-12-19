@@ -23,6 +23,15 @@
 
 .popup {
     width: 390px;
+}
+
+.popup-close {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3px;
+}
+
+.popup-content {
     background: #fff;
     padding: 54px 30px;
 }
@@ -81,8 +90,6 @@
     margin-right: 8px;
     display: inline-block;
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
     background-image: url(../svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center center;

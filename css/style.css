@@ -43,7 +43,6 @@
 /* HEADER STYLES */
 
 .header {
-    background-image: url(../images/banner-bg.jpg);
     background-size: cover;
     position: relative;
     z-index: 0;
@@ -206,7 +205,7 @@
 .aside-section>h3,
 .trends-container>h3,
 .shop-items-container>h3,
-.popup>h3 {
+.popup-content>h3 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -216,7 +215,7 @@
 .aside-section>h3:after,
 .trends-container>h3:after,
 .shop-items-container>h3:after,
-.popup>h3:after {
+.popup-content>h3:after {
     content: "";
     background-color: #b59f5b;
     width: 66px;
@@ -348,7 +347,7 @@
 
 .trends-container>h3,
 .shop-items-container>h3,
-.popup>h3 {
+.popup-content>h3 {
     font-size: 20px;
     margin-top: 60px;
 }
