@@ -22,4 +22,7 @@
         width: 20px;
         height: 20px;
     }
+    .menu-hamburger {
+        display: none;
+    }
 }

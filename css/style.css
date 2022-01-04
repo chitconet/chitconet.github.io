@@ -39,6 +39,10 @@
     position: absolute;
 }
 
+._hidden {
+    display: none !important;
+}
+
 
 /* HEADER STYLES */
 

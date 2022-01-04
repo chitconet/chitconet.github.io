@@ -32,10 +32,14 @@
     .menu-list {
         display: none;
     }
-    .menu-hamburger {
-        background: #fff;
-        width: 20px;
-        height: 20px;
+    .menu-hamburger-box {
+        background-color: #fff;
+        height: 4px;
+        margin-bottom: 4px;
+        width: 23px;
+    }
+    .menu-hamburger-box:last-child {
+        margin-bottom: 0;
     }
     .main-article {
         display: block;
